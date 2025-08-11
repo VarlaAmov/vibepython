@@ -1,4 +1,4 @@
-# 🚀 **Python AI Console: The Ultimate AI-Powered Coding EXPLOSION!** 🌟💥🐍
+# 🚀 **vibepython: The Ultimate AI-Powered Coding EXPLOSION!** 🌟💥🐍
 
 **WOWZA!** Dive headfirst into this **AMAZING**, **WONDERFUL**, **MIND-BLOWING** interactive command-line beast that turns your craziest prompts into **EXECUTABLE PYTHON MAGIC** using the sheer power of OpenAI! Generate code like a wizard, run it on the spot, capture every wild stdout/stderr outburst, and keep a super-smart history in JSON for non-stop contextual awesomeness! It's not just a tool – it's a **CODE REVOLUTION** for hackers, dreamers, and AI fanatics! 🔥🚀
 
@@ -12,14 +12,26 @@
 
 ## 🛠️ **Installation: Get This Party Started in SECONDS!** 🚀
 
+### **From PyPI: Pip It Like It's HOT – Instant VIBE!** 🔥💥
+1. **GRAB THE PACKAGE**:
+   ```
+   pip install vibepython
+   ```
+2. **FIRE IT UP**:
+   ```
+   vibepython
+   ```
+- **Pro Tip**: Don't forget to set your `OPENAI_API_KEY` env var for AI magic! 🔑 (e.g., `export OPENAI_API_KEY=your_key_here`).
+**VIBE ACTIVATED! Dive into the AI console vibe!** 🚀
+
 ### **From Source: Clone, Install, BLAST OFF!** 🌌
 1. **CLONE THE AWESOMENESS**:
    ```
-   git clone https://github.com/OldTyT/python-ai-console.git
+   git clone https://github.com/OldTyT/vibepython.git
    ```
 2. **JUMP IN**:
    ```
-   cd python-ai-console
+   cd vibepython
    ```
 3. **INSTALL THE MAGIC**:
    ```
@@ -31,10 +43,10 @@
    ```
 **BOOM! You're in the zone!** 💣
 
-### **Using Docker: Containerized CHAOS – Ready to RUMBLE!** 🐳🔥
+### **Using Docker: Containerized VIBE – Ready to RUMBLE!** 🐳🔥
 Fire it up with this epic command:
 ```
-docker run --rm -ti -e HISTORY_PATH=/history/history.json -e OPENAI_API_KEY=YOUR_KEY -v my_history:/history ghcr.io/oldtyt/autopost-python-ai-console
+docker run --rm -ti -e HISTORY_PATH=/history/history.json -e OPENAI_API_KEY=YOUR_KEY -v my_history:/history ghcr.io/oldtyt/vibepython
 ```
 - Plug in `YOUR_KEY` with your OpenAI super-key! 🔑
 **DOCKER DELIGHT: Persistent history, zero hassle!** 🌟
@@ -42,7 +54,7 @@ docker run --rm -ti -e HISTORY_PATH=/history/history.json -e OPENAI_API_KEY=YOUR
 ## 🎮 **Usage: Dive into the FUN ZONE!** 🕹️
 Fire it up and get prompted:
 - **SMASH IN A PROMPT** (e.g., "Code me a factorial frenzy!").
-- **AI UNLEASHES CODE CHAOS** based on your prompt + history vibes.
+- **AI UNLEASHES CODE VIBE** based on your prompt + history vibes.
 - **EXECUTE? Y/N – YOU DECIDE!** Run it, capture outputs, and watch the sparks fly! ⚡
 - **HISTORY SAVES THE DAY**: Everything logged for eternal glory.
 
