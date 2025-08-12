@@ -2,8 +2,13 @@ import os
 import io
 import sys
 import datetime
-from .providers.openai import generate
 from .history import History
+
+provider = os.getenv("PROVIDER", "openai").lower()
+if provider == "ollama":
+    from .providers.ollama import generate
+else:
+    from .providers.openai import generate
 
 GRAY = "\033[90m"
 RESET = "\033[0m"
